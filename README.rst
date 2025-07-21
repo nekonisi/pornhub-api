@@ -75,7 +75,7 @@ Search Videos
 _____________
 .. code-block:: python
 
-    videos = api.search_videos.search_videos(
+    videos = api.search.search_videos(
         "chechick",
         ordering="mostviewed",
         period="weekly",
